@@ -1,0 +1,16 @@
+{
+	"author" : "flubb",
+	"build" : "108271",
+	"category" : ["titans", "classic", "gameplay"],
+	"context" : "server",
+	"date" : "2017-12-20",
+	"description" : "adds sounds to some chat messages. Try 'noot' or 'gg'",
+	"display_name" : "Sound Effects for Chat Messages",
+	"forum" : "https://forums.uberent.com/threads/rel-sound-effects-for-chat-messages.72270/",
+	"identifier" : "com.flubbateios.sfx",
+	"signature" : "nobodycares",
+	"version" : "1.2.0",
+	"scenes" : {
+		"live_game_chat":["coui://ui/mods/com.flubbateios.sfx/new.js"]
+	}
+}
