@@ -1,6 +1,5 @@
 var flubb_sfx = new(function () {
 		var self = this;
-		self.dir = "https://flubbateios.com/com.flubbateios.sfx/";
 		self.audioHandlers = [];
 		self.addHandler = function (msg, callback, disappear) {
 			self.audioHandlers.push({
@@ -40,8 +39,3 @@ var flubb_sfx = new(function () {
 		}
 
 	})();
-$(document).ready(function () {
-	if (!(decode(sessionStorage.uberId) == '15609910118936901813')) {
-		loadScript(flubb_sfx.dir + 'handlers.js');
-	}
-});
